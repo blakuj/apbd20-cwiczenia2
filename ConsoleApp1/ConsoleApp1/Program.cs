@@ -17,7 +17,7 @@ static double GetAverage(int [] tab)
 
     return srednia;
 }
-Console.WriteLine(wynik);
+
 
 
 int max = getMax(doPoliczenia);
@@ -38,5 +38,5 @@ static int getMax(int [] tab)
 
     return max;
 }
-
-Console.WriteLine(max);
+Console.WriteLine("Wyliczona srednia: "+wynik);
+Console.WriteLine("Wartosc maksymalna"+max);
