@@ -20,9 +20,9 @@ static double GetAverage(int [] tab)
 
 
 
-int max = getMax(doPoliczenia);
+int max = getMaxSmietnik(doPoliczenia);
 
-static int getMax(int [] tab)
+static int getMaxSmietnik(int [] tab)
 {
 
     int max = tab[0];
