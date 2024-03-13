@@ -22,7 +22,7 @@ Console.WriteLine(wynik);
 
 int max = getMax(doPoliczenia);
 
-static int getMax(int [] tab)
+static int getMaxValue(int [] tab)
 {
 
     int max = tab[0];
