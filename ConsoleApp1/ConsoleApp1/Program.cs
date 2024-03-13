@@ -1,10 +1,5 @@
 ﻿
 
-Console.WriteLine("Hello, World!");
-Console.WriteLine("Zmiana nr 1");
-
-
-
 int[] doPoliczenia = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 123, 43 };
 double wynik = GetAverage(doPoliczenia);
 
@@ -25,4 +20,23 @@ static double GetAverage(int [] tab)
 Console.WriteLine(wynik);
 
 
+int max = getMax(doPoliczenia);
 
+static int getMax(int [] tab)
+{
+
+    int max = tab[0];
+    for (int i = 1; i < tab.Length; i++)
+    {
+        if (tab[i]> max)
+        {
+            max = tab[i];
+        }
+        
+    }
+
+
+    return max;
+}
+
+Console.WriteLine(max);
